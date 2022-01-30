@@ -9,7 +9,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '7 4 4 * *'
+    - cron: '22 1 * * *'
 
 jobs:
   lint:
