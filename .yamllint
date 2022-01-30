@@ -1,0 +1,17 @@
+---
+extends: default
+
+rules:
+  braces:
+    max-spaces-inside: 1
+    level: error
+  brackets:
+    max-spaces-inside: 1
+    level: error
+  line-length: disable
+  truthy: false
+  new-line-at-end-of-file: disable
+
+ignore: |
+  .tox/
+  .cache/
