@@ -4,7 +4,7 @@ Install updates on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-update/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-update)|[![quality](https://img.shields.io/ansible/quality/57816)](https://galaxy.ansible.com/buluma/update)|[![downloads](https://img.shields.io/ansible/role/d/57816)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|
+|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-auto_update/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-auto_update/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57816)](https://galaxy.ansible.com/buluma/update)|[![downloads](https://img.shields.io/ansible/role/d/57816)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
