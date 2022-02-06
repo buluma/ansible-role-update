@@ -4,7 +4,7 @@ Install updates on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-auto_update/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-auto_update/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57816)](https://galaxy.ansible.com/buluma/update)|[![downloads](https://img.shields.io/ansible/role/d/57816)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|
+|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-update/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-update)|[![quality](https://img.shields.io/ansible/quality/57816)](https://galaxy.ansible.com/buluma/update)|[![downloads](https://img.shields.io/ansible/role/d/57816)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -57,7 +57,7 @@ update_reboot: yes
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-update/blob/master/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-update/blob/main/requirements.txt).
 
 ## [Status of used roles](#status-of-requirements)
 
@@ -65,11 +65,14 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.co.ke/) for further information.
+
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-update/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -109,4 +112,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)
