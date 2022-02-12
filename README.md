@@ -85,7 +85,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |amazon|Candidate|
 |el|8|
 |debian|all|
-|fedora|all|
+|fedora|34|
 |opensuse|all|
 |ubuntu|all|
 
