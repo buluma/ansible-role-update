@@ -11,8 +11,6 @@ variables:
 molecule:
   script:
     - image=${image} tag=${tag} molecule test
-  rules:
-    - if: $CI_COMMIT_REF_NAME == "main"
   retry: 1
   parallel:
     matrix:
@@ -28,7 +26,7 @@ molecule:
         tag: "bookworm"
       - image: "fedora-systemd"
         tag: "34"
-      - image: "opensuse"
+      - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "latest"
@@ -57,36 +55,7 @@ testing:
         tag: "bookworm"
       - image: "fedora-systemd"
         tag: "34"
-      - image: "opensuse"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
-        tag: "bionic"
-      - image: "docker-ubuntu-systemd"
-        tag: "focal"
-
-role_testing:
-  script:
-    - image=${image} tag=${tag} ansible-galaxy install buluma.update
-  rules:
-    - if: $CI_COMMIT_REF_NAME == "testing"
-  retry: 1
-  parallel:
-    matrix:
-      - image: "alpine-openrc"
-        tag: "latest"
-      - image: "amazonlinux"
-        tag: "latest"
-      - image: "enterpriselinux"
-        tag: "latest"
-      - image: "debian-systemd"
-        tag: "latest"
-      - image: "debian-systemd"
-        tag: "bookworm"
-      - image: "fedora-systemd"
-        tag: "34"
-      - image: "opensuse"
+      - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "latest"
@@ -99,7 +68,7 @@ galaxy:
   script:
     - ansible-galaxy role info buluma.update
 
-role_testing_live:
+role_testing:
   script:
     - image=${image} tag=${tag} ansible-galaxy install buluma.update
   retry: 1
@@ -117,7 +86,7 @@ role_testing_live:
         tag: "bookworm"
       - image: "fedora-systemd"
         tag: "34"
-      - image: "opensuse"
+      - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "latest"
