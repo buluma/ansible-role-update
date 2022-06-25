@@ -12,5 +12,5 @@ exclude_paths:
   - ./.tox
   - ./.cache
 
-warn_list:  # or 'skip_list' to silence them completely
+skip_list:  # or 'skip_list' to silence them completely
   - package-latest  # Package installs should not use latest
