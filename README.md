@@ -1,10 +1,10 @@
-# [update](#update)
+# [Ansible role update](#update)
 
 Install updates on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-update/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-update)|[![quality](https://img.shields.io/ansible/quality/57816)](https://galaxy.ansible.com/buluma/update)|[![downloads](https://img.shields.io/ansible/role/d/57816)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-update/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-update/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-update/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-update)|[![downloads](https://img.shields.io/ansible/role/d/4870)](https://galaxy.ansible.com/buluma/update)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
