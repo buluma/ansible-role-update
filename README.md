@@ -1,10 +1,10 @@
-# [Ansible role update](#update)
+# Ansible role [update](https://galaxy.ansible.com/ui/standalone/roles/buluma/update/documentation)
 
 Install updates on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-update/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-update/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-update/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-update/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-update.svg)](https://github.com/buluma/ansible-role-update/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/update)](https://galaxy.ansible.com/ui/standalone/roles/buluma/update/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -107,13 +107,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-update/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-update/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
