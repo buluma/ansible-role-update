@@ -2,11 +2,23 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-update/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-update/compare/2.0.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-update/compare/2.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.8 [\#18](https://github.com/buluma/ansible-role-update/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [2.1.0](https://github.com/buluma/ansible-role-update/tree/2.1.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-update/compare/2.0.2...2.1.0)
 
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#15](https://github.com/buluma/ansible-role-update/issues/15)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#16](https://github.com/buluma/ansible-role-update/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.2](https://github.com/buluma/ansible-role-update/tree/2.0.2) (2023-12-25)
 
