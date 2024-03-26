@@ -71,9 +71,15 @@ jobs:
           - image: "docker-ubuntu-systemd"
             tag: "bionic"
           - image: "docker-ubuntu-systemd"
+<<<<<<< HEAD
             tag: "lunar"
           - image: "docker-ubuntu-systemd"
             tag: "noble"
+=======
+            tag: "noble"
+          - image: "docker-ubuntu-systemd"
+            tag: "lunar"
+>>>>>>> 841bb617cf0ac92acc9c72d329daabff6b645ba0
     steps:
       - name: Checkout Role
         uses: actions/checkout@v4
