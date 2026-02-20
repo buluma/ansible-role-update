@@ -47,7 +47,7 @@
 - name: Update all software (dnf)
   ansible.builtin.dnf:
     name: "*"
-    state: latest  # noqa package-latest This role is to update packages.
+    state: latest # noqa package-latest This role is to update packages.
   notify:
     - Reboot
   when:
@@ -67,9 +67,9 @@
     - ansible_pkg_mgr == "yum"
   block:
     - name: Update all software (yum/6)
-      ansible.builtin.yum:
+      ansible.builtin.dnf:
         name: "*"
-        state: latest  # noqa package-latest This role is to update packages.
+        state: latest # noqa package-latest This role is to update packages.
       notify:
         - Reboot
       when:
@@ -80,9 +80,9 @@
         - ansible_distribution_major_version != "6"
       block:
         - name: Update all software (yum)
-          ansible.builtin.yum:
+          ansible.builtin.dnf:
             name: "*"
-            state: latest  # noqa package-latest This role is to update packages.
+            state: latest # noqa package-latest This role is to update packages.
           notify:
             - Reboot
 
@@ -93,7 +93,7 @@
 - name: Update all software (zypper)
   community.general.zypper:
     name: "*"
-    state: latest  # noqa package-latest This role is to update packages.
+    state: latest # noqa package-latest This role is to update packages.
   notify:
     - Reboot
   when:
