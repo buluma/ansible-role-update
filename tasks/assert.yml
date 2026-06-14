@@ -3,7 +3,7 @@
   ansible.builtin.assert:
     that:
       - update_autoremove is defined
-      - update_autoremove is boolean
+      - update_autoremove | type_debug == 'bool'
     quiet: true
 
 - name: assert | Test if update_upgrade_command is set correctly
@@ -26,5 +26,5 @@
   ansible.builtin.assert:
     that:
       - update_reboot is defined
-      - update_reboot is boolean
+      - update_reboot | type_debug == 'bool'
     quiet: true
