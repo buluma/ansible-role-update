@@ -51,7 +51,7 @@
   notify:
     - Reboot
   when:
-    - ansible_facts.pkg_mgr == "dnf"
+    - ansible_facts.pkg_mgr in [ "dnf", "dnf5" ]
 
 - name: Update all software (pacman)
   community.general.pacman:
