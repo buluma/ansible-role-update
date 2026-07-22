@@ -1,6 +1,12 @@
 ---
 # Pins the CI platform/version matrix for this role. Without this, ansible-generator
 # falls back to default_platforms and silently discards these choices on regenerate.
+#
+# NOTE: .github/workflows/molecule.yml has a manual override dropping
+# rockylinux9 from the EL-9 entry below (broken dbus/sudo after a full
+# update there, see that file's comment). The generator has no
+# per-distro granularity within "EL", so regenerating this role will
+# silently reintroduce rockylinux9 -- reapply the override if that happens.
 platforms:
   - name: EL
     versions:

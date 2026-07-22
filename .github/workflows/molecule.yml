@@ -48,8 +48,15 @@ jobs:
             tag: "rockylinux10"
           - image: "docker-molecule-images"
             tag: "almalinux10"
-          - image: "docker-molecule-images"
-            tag: "rockylinux9"
+          # rockylinux9 excluded: a full package update leaves dbus's socket
+          # unit inactive in this container, permanently breaking sudo's PAM
+          # account phase for every task afterward. Same unresolved issue
+          # as ansible-role-os_updates (see that repo's git history for the
+          # four fix attempts that didn't hold up in real CI). Doesn't
+          # reproduce on almalinux9 (same EL9 family).
+          # Manual override: the generator has no per-distro granularity
+          # within the "EL" platform grouping, so this will need to be
+          # re-applied if the workflow is regenerated.
           - image: "docker-molecule-images"
             tag: "almalinux9"
           - image: "docker-molecule-images"
